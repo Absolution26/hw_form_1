@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1170">
     <link rel="stylesheet" href="nullstyle.css" type="text/css">
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -121,15 +121,15 @@
                 </p>
                 <div class="gallery">
                     <div class="gallery__item">
-                        <img class="gallery__item" src="img/peach.png" alt="peach">
+                        <img class="gallery__image2" src="img/peach.png" alt="peach">
                         <div class="gallery__items">
-                            <img class="gallery__item" src="img/blueberry.png" alt="blueberry">
-                            <img class="gallery__item" src="img/blackberry.png" alt="blackberry">
+                            <img class="gallery__image" src="img/blueberry.png" alt="blueberry">
+                            <img class="gallery__image" src="img/blackberry.png" alt="blackberry">
                         </div>
                     </div>
                     <div class="gallery__item">
-                        <img class="gallery__item" src="img/yogurt.png" alt="yogurt">
-                        <img class="gallery__item" src="img/persimmon.png" alt="persimmon">
+                        <img class="gallery__image" src="img/yogurt.png" alt="yogurt">
+                        <img class="gallery__image" src="img/persimmon.png" alt="persimmon">
                     </div>
                 </div>
                 <button class="button">VIEW MORE</button>
@@ -202,9 +202,10 @@
                 </p>
                 <div class="formpage__middle">
                     <form class="form" method="get">
-                        <input class="form__item" type="text" placeholder="Your name and surname...">
-                        <input type="email" class="form__item" placeholder="Your email...">
-                        <input type="tel" class="form__item" placeholder="Your phone...">
+                        <input class="form__item" type="text" name="name" placeholder="Your name and surname..."
+                            required>
+                        <input class="form__item" type="email" name="mail" placeholder="Your email..." required>
+                        <input class="form__item" type="tel" name="phone" placeholder="Your phone..." required>
                         <textarea class="form__message" name="Message" cols="30" rows="10"
                             placeholder="Your message..."></textarea>
                     </form>
